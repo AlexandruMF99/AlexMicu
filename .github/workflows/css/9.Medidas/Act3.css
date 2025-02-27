@@ -1,0 +1,12 @@
+.par3 {
+    --lado: 4rem;
+    --alto: 40rem;
+    width: var(--alto);
+    height: var(--lado);
+    background-color: #b9007c;
+}
+
+.alt {
+    max-height: 10rem;
+    min-height: 5rem;
+}
