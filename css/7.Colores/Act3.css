@@ -1,0 +1,36 @@
+.blog {
+    font-weight: bold;
+}
+
+.simplest {
+    font-style: italic;
+}
+
+.title {
+    color: red;
+}
+
+.para {
+    color: rgb(156, 155, 155);
+}
+
+.black {
+    color: black;
+}
+
+.date {
+    color: rgb(172, 172, 172);
+}
+
+.fondo {
+    color: white;
+    background-color: red;
+}
+
+.rectangulo {
+    --lado: 5rem;
+    --alto: 50rem;
+    width: var(--alto);
+    height: var(--lado);
+    background-color: #eeeeee;
+}

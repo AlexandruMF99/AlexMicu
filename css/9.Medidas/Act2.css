@@ -1,0 +1,31 @@
+.par1 {
+    --lado: 4rem;
+    --alto: 80rem;
+    width: var(--alto);
+    height: var(--lado);
+    background-color: #D95B43;
+}
+
+.par2 {
+    --lado: 4rem;
+    --alto: 60rem;
+    width: var(--alto);
+    height: var(--lado);
+    background-color: #006b66;
+}
+
+.par3 {
+    --lado: 4rem;
+    --alto: 40rem;
+    width: var(--alto);
+    height: var(--lado);
+    background-color: #b9007c;
+}
+
+.par4 {
+    --lado: 4rem;
+    --alto: 20rem;
+    width: var(--alto);
+    height: var(--lado);
+    background-color: #00b91f;
+}
