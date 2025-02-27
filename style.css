@@ -8,6 +8,10 @@ body{
     padding-right: 10%;
 }
 
+.font {
+    font-family: 'GodOfWar';
+}
+
 .title {
     font-family: 'GodOfWar';
     text-align: center;
@@ -155,3 +159,9 @@ footer a{
   .imganim2:hover {
     transform: scale(1.2);
   }
+
+  ol {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+}
