@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/godofwar');
+
+body{
+    background-color: rgb(50, 133, 133) ;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.title {
+    font-family: 'GodOfWar';
+    text-align: center;
+    display: block;
+    background-color: #0086af;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: wheat;
+}
+
+.p1 {
+    font-size: 20px;
+    padding-left: 20%;
+    color: white;
+    text-align: justify;
+}
+
+.desc {
+    padding-top: 30%;
+}
+
+header nav {
+    position: relative;
+    display: grid;
+    gap: 35px;
+}
+
+.ins {
+    width: 800px;
+}
+
+.ins2 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 400px;
+}
+
+.imagenyo {
+    --lado: 10rem;
+    --alto: 20rem;
+    width: var(--alto);
+    height: var(--lado);
+    background-color: #18c0cc;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 300px;
+}
+
+header nav a {
+    font-family: 'GodOfWar';
+    transition: 0.3s;
+    color: rgb(255, 254, 254);
+    display: inline-block;
+    text-align: center;
+}
+
+header nav a:hover {
+    transform: scale(1.2);
+    color: rgb(68, 37, 182);
+}
+
+footer {
+    font-family: 'GodOfWar';
+    display: block;
+    text-align: right;
+    background-color: #0086af;
+    color: rgb(255, 255, 255);
+    bottom:0;
+}
+footer a{
+    font-family: 'GodOfWar';
+    color: rgb(255, 255, 255);
+}
