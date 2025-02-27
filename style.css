@@ -107,6 +107,10 @@ footer a{
   margin-bottom: 80px;
   }
 
+  .actcss {
+    color: blue;
+  }
+
   .web {
     color: orangered;
   }
@@ -142,4 +146,12 @@ footer a{
 
   .imganim {
     animation: appear 0.5s linear;
+  }
+
+  .imganim2 {
+    animation: appear 0.5s linear;
+  }
+
+  .imganim2:hover {
+    transform: scale(1.2);
   }
