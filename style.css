@@ -14,6 +14,7 @@ body{
     display: block;
     background-color: #3a3a3a;
     color: rgb(255, 255, 255);
+    
 }
 
 h2 {
@@ -35,6 +36,8 @@ h2 {
 
 .ins {
     width: 800px;
+    animation: appear 0.5s linear;
+
 }
 
 .ins2 {
@@ -42,6 +45,8 @@ h2 {
     top: 63%;
     left: 60%;
     width: 400px;
+    animation: appear 0.5s linear;
+
 }
 
 .imagenyo {
@@ -54,6 +59,8 @@ h2 {
     top: 33%;
     left: 10%;
     width: 300px;
+    animation: appear 0.5s linear;
+
 }
 
 header nav {
@@ -70,6 +77,7 @@ header nav a {
     color: rgb(0, 0, 0);
     display: inline-block;
     text-align: center;
+    animation: slide 1s;
 }
 
 header nav a:hover {
@@ -89,3 +97,49 @@ footer a{
     font-family: 'GodOfWar';
     color: rgb(255, 255, 255);
 }
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 80px;
+  }
+
+  .web {
+    color: orangered;
+  }
+  .center {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide {
+    animation-name: slide;
+    animation-duration: 1s;
+}
+
+  .imganim {
+    animation: appear 0.5s linear;
+  }
