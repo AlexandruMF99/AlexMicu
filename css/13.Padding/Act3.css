@@ -1,0 +1,22 @@
+.p {
+    padding-top:3rem;
+    padding-left: 1rem;
+    padding-right: 10rem;
+}
+
+.h {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 20rem;
+    padding-bottom: 3rem;
+}
+
+.f {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 10rem;
+}
+.str {
+    font-weight: bold;
+    font-size: 2rem;
+}

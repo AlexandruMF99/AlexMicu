@@ -1,0 +1,17 @@
+.p {
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-right:7rem;
+    margin-bottom: 3rem;
+}
+
+.h {
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 20rem;
+}
+.str {
+    font-weight: bold;
+    font-size: 2rem;
+}
